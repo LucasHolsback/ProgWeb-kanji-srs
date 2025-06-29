@@ -1,6 +1,6 @@
 package com.example.kanjisrs.model;
 
-import jakarta.persistence.Column; // Make sure this import is added
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -24,7 +24,7 @@ public class Kanji {
     private String onyomi;
     private String kunyomi;
 
-    // --- SRS Fields ---
+    // SRS Fields
     private int repetitions = 0;
     private double easinessFactor = 2.5;
 

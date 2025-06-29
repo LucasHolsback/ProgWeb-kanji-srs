@@ -17,7 +17,7 @@ import java.util.Map;
  */
 @RestController
 @RequestMapping("/api/kanji")
-@CrossOrigin(origins = "*") // Allows requests from any origin (e.g., your index.html)
+@CrossOrigin(origins = "*") // Allows requests from any origin
 public class KanjiController {
 
     @Autowired
